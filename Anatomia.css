@@ -1,0 +1,44 @@
+# Anatomia
+
+/*Isso é um comentário no CSS*/
+
+
+/*o Selector é o h1*/
+/*Podem ser chamados de ELementor/Type Selector
+/*Seletores servem para conectar um elemento HTML ao CSS*/
+
+h1, h2 {
+
+    /*Desclaration - É o que tem dentro do corpo do Selector*/
+    /*Aqui estão as propriedades - color, font-size e...*/
+    /*Property Value - são as propriedades com seus respectivos valores*/
+
+    color:blue;
+    font-size: 60px;
+    background-color: gray;
+}
+
+/*# Tipos no CSS */
+
+/** Global Selector "*"
+Todos os elementos possíveis**/
+* {
+    font-size: 16px;
+}
+
+* Class Selector .red, .m-40
+/** ID Selector "#box" "#container"**/
+#container {
+    /*Mudar as propriedades deste container*/
+    width: 200px;
+}
+
+.m-40 {
+    margin: 40px;
+}
+
+* Attribute Selector,
+* Pseudo-class,
+* Pseudo-element,
+
+
